@@ -1,0 +1,788 @@
+.vue-degree-plan .plan-term:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.vue-degree-plan .plan-term .term-head {
+    display: flex;
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+.vue-degree-plan .plan-term .term-head .term-credits {
+    text-align: right;
+    font-size: 13px;
+    flex: 0 0 150px;
+}
+
+.vue-degree-plan .plan-term .term-head .term-credits div {
+    display: inline-block;
+    background: #303e4d;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.vue-degree-plan .plan-term .term-head .term-title {
+    flex: 1 0 0;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Roboto Condensed, serif;
+}
+
+.vue-degree-plan .plan-item {
+    display: flex;
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid #ddd;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.vue-degree-plan .plan-item:hover {
+    background: #f2f2f2;
+}
+
+.vue-degree-plan .plan-item .item-name {
+    flex: 6 0 0;
+    color: #444;
+    font-weight: bold;
+}
+
+.vue-degree-plan .plan-item .item-name span {
+    display: inline-block;
+}
+
+.vue-degree-plan .plan-item .item-grade,
+.vue-degree-plan .plan-item .item-credits {
+    text-align: right;
+    flex: 0 0 150px;
+    color: #888;
+    font-size: 12px;
+    margin-top: 3px;
+    white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+
+    .vue-degree-plan .plan-item .item-grade,
+    .vue-degree-plan .plan-item .item-credits {
+        flex: 0 0 50%;
+        margin-top: 10px;
+    }
+
+    .vue-degree-plan .plan-item .item-grade {
+        text-align: left;
+    }
+
+    .vue-degree-plan .plan-item .item-name {
+        flex: 0 0 100%;
+        display: block;
+    }
+}
+
+.vue-degree-plan .grid-term {
+    flex: 1 0 0;
+}
+
+.vue-degree-plan .grid-term .term-title {
+    background: #303e4d;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.vue-degree-plan .grid-item {
+    transition: background-color 0.25s, opacity 0.25s;
+    background: #f2f2f2;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 2px;
+    position: relative;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                          supported by Chrome and Opera */
+}
+
+.vue-degree-plan .grid-item:hover {
+    background: #ddd;
+    opacity: 1;
+}
+
+.vue-degree-plan .grid-item .item-credits {
+    position: absolute;
+    color: #888;
+}
+
+.vue-degree-plan .grid-item .item-credits:after {
+    content: 'Credits';
+}
+
+@media (min-width: 801px) {
+    .vue-degree-plan .grid {
+        display: flex;
+        table-layout: fixed;
+    }
+
+    .vue-degree-plan .grid-term {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        flex-basis: 0;
+        width: 0;
+        font-size: 15px;
+    }
+
+    .vue-degree-plan .grid-term .term-title {
+        margin: 3px;
+        padding: 5px 0px;
+    }
+
+    .vue-degree-plan .grid-term .term-title div {
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .vue-degree-plan .grid-term .term-credits {
+        text-align: center;
+        padding: 5px 0px;
+        margin: 3px;
+        border-radius: 2px;
+        border: 1px dashed #303e4d;
+        white-space: nowrap;
+        font-size: 14px;
+    }
+
+    .vue-degree-plan .grid-item {
+        margin: 3px;
+        height: 90px;
+        padding: 5px;
+    }
+
+    .vue-degree-plan .grid-item .item-title {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .vue-degree-plan .grid-item .item-title2,
+    .vue-degree-plan .grid-item .item-title3 {
+        font-size: 12.5px;
+    }
+
+    .vue-degree-plan .grid-item .item-credits {
+        right: 5px;
+        bottom: 5px;
+        font-size: 8pt;
+    }
+}
+
+@media (max-width: 800px) {
+    .vue-degree-plan .grid {
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+        max-width: 100%;
+        border-spacing: 3px;
+    }
+
+    .vue-degree-plan .grid-term {
+        display: table-row;
+    }
+
+    .vue-degree-plan .grid-term .term-title {
+        position: relative;
+        display: table-cell;
+        height: 50px;
+        width: 20px;
+        min-width: 20px;
+        font-size: 11px;
+    }
+
+    .vue-degree-plan .grid-term .term-title div {
+        white-space: nowrap;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    }
+
+    .vue-degree-plan .grid-term .term-credits {
+        display: none;
+    }
+
+    .vue-degree-plan .grid-item {
+        display: table-cell;
+        height: 50px;
+        max-height: 50px;
+        padding: 3px;
+    }
+
+    .vue-degree-plan .grid-item .item-title {
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .vue-degree-plan .grid-item .item-title2,
+    .vue-degree-plan .grid-item .item-title3 {
+        font-size: 9px;
+    }
+
+    .vue-degree-plan .grid-item .item-title3 {
+        display: none;
+    }
+
+    .vue-degree-plan .grid-item .item-credits {
+        right: 3px;
+        bottom: 3px;
+        font-size: 7pt;
+    }
+}
+
+.vue-degree-plan .graph .link {
+    transition: stroke-opacity 0.25s;
+    stroke-width: 1px;
+}
+
+.vue-degree-plan .graph .end-marker {
+    fill: #888;
+}
+
+.vue-degree-plan .graph .item-cell {
+    rx: 2;
+    ry: 2;
+    fill: #f2f2f2;
+    opacity: 0.7;
+}
+
+.vue-degree-plan .graph-term .term-title rect {
+    fill: #303e4d;
+    rx: 2;
+    ry: 2;
+}
+
+.vue-degree-plan .graph-term .term-title text {
+    fill: white;
+    font-weight: bold;
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+.vue-degree-plan .graph-item {
+    transition: opacity 0.25s;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                          supported by Chrome and Opera */
+}
+
+.vue-degree-plan .graph-item text {
+    fill: #444;
+    text-anchor: middle;
+    dominant-baseline: middle;
+    font-weight: bold;
+}
+
+.vue-degree-plan .graph-item circle {
+    transition: all 0.25s;
+    fill: #ddd;
+    stroke: #444;
+    stroke-width: 2px;
+}
+
+.vue-degree-plan .graph-item:hover circle {
+    fill: #888;
+}
+
+.vue-degree-plan .graph-item:hover .item-credits {
+    fill: #f2f2f2;
+}
+
+@media (min-width: 801px) {
+    .vue-degree-plan .graph .link {
+        stroke: #999;
+    }
+
+    .vue-degree-plan .graph-term .term-title text {
+        font-size: 15px;
+    }
+
+    .vue-degree-plan .graph-term .term-credits rect {
+        fill: none;
+        stroke: #303e4d;
+        stroke-dasharray: 3, 2;
+        rx: 2;
+        ry: 2;
+    }
+
+    .vue-degree-plan .graph-term .term-credits text {
+        font-size: 14px;
+        text-anchor: middle;
+        dominant-baseline: middle;
+    }
+
+    .vue-degree-plan .graph-item text {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 800px) {
+    .vue-degree-plan .graph .link {
+        stroke: #bbb;
+    }
+
+    .vue-degree-plan .graph-term .term-title text {
+        font-size: 11px;
+    }
+
+    .vue-degree-plan .graph-item text {
+        font-size: 10px;
+    }
+}
+
+.vue-degree-plan .note {
+    margin-top: 20px;
+    background: #eef1f4;
+    border: 1px solid #708aa6;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.vue-degree-plan .requirement .requirement {
+    background: rgba(136, 136, 136, 0.7);
+    padding-left: 10px;
+}
+
+.vue-degree-plan .requirement .requirement .reqinfo {
+    background: white;
+}
+
+.vue-degree-plan .coreinfo {
+    position: relative;
+}
+
+.vue-degree-plan .coreinfo:before {
+    content: 'CORE';
+    position: absolute;
+    top: 4px;
+    left: 30px;
+    z-index: 1;
+    color: #888;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.vue-degree-plan .coreinfo .core-options {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+}
+
+.vue-degree-plan .requirement .requirement-name,
+.vue-degree-plan .requirement .core-name,
+.vue-degree-plan .core .requirement-name,
+.vue-degree-plan .core .core-name {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.vue-degree-plan .requirement .requirement-name:hover,
+.vue-degree-plan .requirement .core-name:hover,
+.vue-degree-plan .core .requirement-name:hover,
+.vue-degree-plan .core .core-name:hover {
+    opacity: 0.7;
+}
+
+.vue-degree-plan .requirement .toggle-nested,
+.vue-degree-plan .core .toggle-nested {
+    position: absolute;
+    top: 17px;
+    left: 10px;
+}
+
+.vue-degree-plan .reqinfo {
+    position: relative;
+}
+
+.vue-degree-plan .req-item {
+    padding-top: 16px;
+    float: right;
+    width: 190px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.vue-degree-plan .req-satisfy {
+    margin-top: -5px;
+    padding: 5px 10px;
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    background-color: #a0b222;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.vue-degree-plan .req-satisfy.credits {
+    border-radius: 0 2px 2px 0;
+}
+
+.vue-degree-plan .req-satisfy.credits.blue {
+    background-color: #303e4d;
+}
+
+.vue-degree-plan .req-satisfy.variable {
+    padding: 4px 10px;
+    margin-right: 0;
+    color: #a0b222;
+    border: 1px solid #a0b222;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 2px 0 0 2px;
+}
+
+.vue-degree-plan .req-satisfy.variable.blue {
+    border-color: #303e4d;
+    color: #303e4d;
+}
+
+.vue-degree-plan .requirement-name,
+.vue-degree-plan .subrequirement-name,
+.vue-degree-plan .course-name,
+.vue-degree-plan .wildcard-name,
+.vue-degree-plan .core-name {
+    width: 40%;
+    margin: 0;
+    padding: 15px 30px;
+    background-color: transparent;
+    border: none;
+    float: left;
+    font-weight: bold;
+}
+
+.vue-degree-plan .course-description {
+    margin-left: 30px;
+    padding-bottom: 10px;
+}
+
+.vue-degree-plan .course-prereq,
+.vue-degree-plan .course-coreq {
+    margin-left: 30px;
+}
+
+.vue-degree-plan .course-prereq .vue-course-requisite,
+.vue-degree-plan .course-coreq .vue-course-requisite {
+    display: inline-block;
+}
+
+.vue-degree-plan .variable-credits {
+    width: 30px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.vue-degree-plan .variable-credits:hover {
+    opacity: 0.7;
+}
+
+.vue-degree-plan .variable-credits:focus {
+    outline: none;
+}
+
+.vue-degree-plan .clear {
+    clear: both;
+}
+
+.vue-degree-plan .prereq {
+    background: #ff4136;
+}
+
+.vue-degree-plan .prereq circle {
+    stroke: #cf0b00;
+    fill: #ff4136;
+}
+
+.vue-degree-plan .coreq {
+    background: #fff199;
+}
+
+.vue-degree-plan .coreq circle {
+    stroke: #ffe333;
+    fill: #fff199;
+}
+
+.vue-degree-plan .strict-coreq {
+    background: #ffdc00;
+}
+
+.vue-degree-plan .strict-coreq circle {
+    stroke: #998400;
+    fill: #ffdc00;
+}
+
+.vue-degree-plan .pre-coreq-field {
+    background: #ffd2cf;
+}
+
+.vue-degree-plan .pre-coreq-field circle {
+    stroke: #ff7169;
+    fill: #ffd2cf;
+}
+
+.vue-degree-plan .unblocked {
+    background: #2ecc40;
+}
+
+.vue-degree-plan .unblocked circle {
+    stroke: #1b7926;
+    fill: #2ecc40;
+}
+
+.vue-degree-plan .unblocked-field {
+    background: #a8ebaf;
+}
+
+.vue-degree-plan .unblocked-field circle {
+    stroke: #54d964;
+    fill: #a8ebaf;
+}
+
+.vue-degree-plan .link.coreq,
+.vue-degree-plan .link.strict-coreq {
+    stroke-dasharray: 5, 5;
+}
+
+.vue-degree-plan .no-association {
+    opacity: 0.3;
+}
+
+.vue-degree-plan .no-association2 {
+    opacity: 0.1;
+}
+
+.vue-degree-plan .requisite-legend {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: rgba(250, 250, 250, 0.8);
+    z-index: 10;
+    color: #444;
+    pointer-events: none;
+}
+
+.vue-degree-plan .requisite-legend div {
+    padding: 2px;
+    text-transform: capitalize;
+}
+
+.vue-degree-plan .requisite-legend span {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+}
+
+.vue-degree-plan .legend-enter-active,
+.vue-degree-plan .legend-leave-active {
+    transition: all .25s;
+}
+
+.vue-degree-plan .legend-enter,
+.vue-degree-plan .legend-leave-to {
+    opacity: 0;
+    transform: translateX(50%);
+}
+
+.vue-degree-plan .legend-enter-to,
+.vue-degree-plan .legend-leave {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.vue-degree-plan .v--modal-overlay {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.vue-degree-plan .modal-enter-active,
+.vue-degree-plan .modal-leave-active {
+    transition: all .25s;
+}
+
+.vue-degree-plan .modal-enter,
+.vue-degree-plan .modal-leave-to {
+    transform: translateY(50px);
+}
+
+.vue-degree-plan .modal-enter-to,
+.vue-degree-plan .modal-leave {
+    transform: translateY(0px);
+}
+
+.vue-degree-plan .vue-degree-plan-modal {
+    padding-bottom: 0px;
+    max-height: 100%;
+    overflow: auto;
+}
+
+.vue-degree-plan .vue-degree-plan-modal .v--modal-box {
+    margin-bottom: 0px !important;
+    top: 40px !important;
+    padding: 50px 0px;
+}
+
+@media (max-width: 600px) {
+    .vue-degree-plan .vue-degree-plan-modal .v--modal-box {
+        width: 100% !important;
+        top: 0 !important;
+        left: 0 !important;
+        border-radius: 0px !important;
+        max-height: 100vh;
+    }
+
+    .vue-degree-plan .vue-degree-plan-modal .v--modal-box .item-description {
+        max-height: calc(100vh - 100px);
+    }
+}
+
+.vue-degree-plan .vue-degree-plan-modal .modal-close-icon {
+    transition: all 0.25s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #888;
+    padding: 5px 10px;
+    font-size: 25px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.vue-degree-plan .vue-degree-plan-modal .modal-close-icon:hover {
+    color: #444;
+}
+
+.vue-degree-plan .vue-degree-plan-modal .modal-close-icon:before {
+    content: '\D7';
+}
+
+.vue-degree-plan .vue-degree-plan-modal .modal-header,
+.vue-degree-plan .vue-degree-plan-modal .modal-close-button {
+    padding: 15px;
+    background: #f2f2f2;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.vue-degree-plan .vue-degree-plan-modal .modal-close-button {
+    bottom: 0;
+    transition: all 0.25s;
+    color: #888;
+    text-align: center;
+    cursor: pointer;
+    border-top: 1px solid #ddd;
+}
+
+.vue-degree-plan .vue-degree-plan-modal .modal-close-button:hover {
+    background: #ddd;
+    color: #444;
+}
+
+.vue-degree-plan .vue-degree-plan-modal .modal-close-button:before {
+    content: 'Close';
+}
+
+.vue-degree-plan .vue-degree-plan-modal .modal-header {
+    top: 0;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.vue-degree-plan .item-modal .item-description {
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    max-height: calc(100vh - 180px);
+    overflow: auto;
+}
+
+.vue-degree-plan .item-modal .item-requirement,
+.vue-degree-plan .item-modal .item-course,
+.vue-degree-plan .item-modal .item-spec {
+    border: 1px dashed #888;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.vue-degree-plan .item-modal .item-requirement .course-title,
+.vue-degree-plan .item-modal .item-course .course-title,
+.vue-degree-plan .item-modal .item-spec .course-title {
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.vue-degree-plan .item-modal .item-requirement:before,
+.vue-degree-plan .item-modal .item-course:before,
+.vue-degree-plan .item-modal .item-spec:before {
+    width: 100%;
+    color: #888;
+    text-align: center;
+    font-size: 9pt;
+    font-style: italic;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+.vue-degree-plan .item-modal .item-requirement .item-requirement-content,
+.vue-degree-plan .item-modal .item-requirement .item-course-content,
+.vue-degree-plan .item-modal .item-requirement .item-spec-content,
+.vue-degree-plan .item-modal .item-course .item-requirement-content,
+.vue-degree-plan .item-modal .item-course .item-course-content,
+.vue-degree-plan .item-modal .item-course .item-spec-content,
+.vue-degree-plan .item-modal .item-spec .item-requirement-content,
+.vue-degree-plan .item-modal .item-spec .item-course-content,
+.vue-degree-plan .item-modal .item-spec .item-spec-content {
+    padding: 10px;
+}
+
+.vue-degree-plan .item-modal .item-requirement:before {
+    content: 'Requirement Breakdown';
+}
+
+.vue-degree-plan .item-modal .item-course:before {
+    content: 'Course Information';
+}
+
+.vue-degree-plan .item-modal .item-spec:before {
+    content: 'Course Information';
+}
