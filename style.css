@@ -1,3 +1,37 @@
+.grid-item {
+  cursor: pointer;
+}
+
+.held {
+}
+
+.grid-term {
+  /* height: 110px;
+  width: 110px;
+  margin: 10px;
+  border: solid 5px black;
+  background-color: white;
+  display: inline-block; */
+}
+
+.hovered {
+  border: dotted .5px grey;
+}
+
+.invisible {
+  display: none;
+}
+
+#container {
+  margin: auto;
+  top: 100px;
+  width: 400px;
+  position: relative;
+}
+
+
+
+
 .vue-degree-plan .plan-term:not(:last-child) {
     margin-bottom: 30px;
 }
