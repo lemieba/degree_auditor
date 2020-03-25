@@ -112,93 +112,93 @@
     "course_options": [{
       "dept": "Art",
       "crs_id": "291",
-      "crs_name": "",
-      "credits": 0
+      "crs_name": "African American Art",
+      "credits": 4
     }, {
       "dept": "Art",
       "crs_id": "292",
-      "crs_name": "",
-      "credits": 0
+      "crs_name": "African Art",
+      "credits": 4
     }, {
       "dept": "English",
       "crs_id": "275",
-      "crs_name": "",
-      "credits": 0
+      "crs_name": "African American Literature",
+      "credits": 4
     }, {
       "dept": "History",
       "crs_id": "180",
-      "crs_name": "",
-      "credits": 0
+      "crs_name": "African History",
+      "credits": 4
     }, {
       "dept": "History",
       "crs_id": "270",
-      "crs_name": "",
-      "credits": 0
+      "crs_name": "African American History",
+      "credits": 4
     }, {
       "dept": "Music",
       "crs_id": "200",
-      "crs_name": "",
-      "credits": 0
+      "crs_name": "World Music",
+      "credits": 2
     }, {
       "dept": "Music",
       "crs_id": "206",
-      "crs_name": "",
-      "credits": 0
+      "crs_name": "Crosscurrents in African and African American Music",
+      "credits": 2
     }]
   }, {
     "name": "C-The Arts",
     "course_options": [{
       "dept": "CORE",
       "crs_id": "220",
-      "crs_name": "",
-      "credits": 0
+      "crs_name": "Creative Arts",
+      "credits": 3
     }, {
       "dept": "Music",
       "crs_id": "207",
-      "crs_name": "",
+      "crs_name": "20th Century Music",
       "credits": 0
     }, {
       "dept": "Music",
       "crs_id": "208",
-      "crs_name": "",
-      "credits": 0
+      "crs_name": "History of Jazz",
+      "credits": 2
     }, {
       "dept": "Music",
       "crs_id": "205",
-      "crs_name": "",
+      "crs_name": "Music in America",
       "credits": 0
     }, {
       "dept": "Art",
       "crs_id": "207",
-      "crs_name": "",
-      "credits": 0
+      "crs_name": "Arts and Ideas I",
+      "credits": 4
     }, {
       "dept": "Art",
       "crs_id": "208",
-      "crs_name": "",
-      "credits": 0
+      "crs_name": "Arts and Ideas II",
+      "credits": 4
     }]
   }, {
     "name": "D-The Science",
     "course_options": [{
       "dept": "CORE",
       "crs_id": "240",
-      "crs_name": "",
-      "credits": 0
+      "crs_name": "Natural Science",
+      "credits": 4
     }, {
       "dept": "BIOL",
       "crs_id": "101/101L",
-      "crs_name": "",
+      "crs_name": "General Biology/ General Biology Lab",
       "credits": 0
     }, {
       "dept": "CHEM",
       "crs_id": "113/103",
-      "crs_name": "",
+      "crs_name": "Gen. Chem. I/Experiments in Gen Chem.",
       "credits": 0
     }, {
       "dept": "PHY",
       "crs_id": "130/130L",
-      "crs_name": "",
+      "crs_name": "University Physics and Experiment in Physics",
       "credits": 0
     }]
   }, {
@@ -206,32 +206,32 @@
     "course_options": [{
       "dept": "ECON",
       "crs_id": "230",
-      "crs_name": "",
+      "crs_name": "Principles of Microeconomics",
       "credits": 0
     }, {
       "dept": "ECON",
       "crs_id": "240",
-      "crs_name": "",
+      "crs_name": "Principles of Macroeconomics",
       "credits": 0
     }, {
       "dept": "HIS",
       "crs_id": "160",
-      "crs_name": "",
+      "crs_name": "United States History",
       "credits": 0
     }, {
       "dept": "PSCI",
       "crs_id": "122",
-      "crs_name": "",
+      "crs_name": "American Political Systems",
       "credits": 0
     }, {
       "dept": "PSY",
       "crs_id": "180",
-      "crs_name": "",
-      "credits": 0
+      "crs_name": "General Psychology",
+      "credits": 4
     }, {
       "dept": "SOC",
       "crs_id": "100",
-      "crs_name": "",
+      "crs_name": "Introduction to Sociology",
       "credits": 0
     }]
   }, {

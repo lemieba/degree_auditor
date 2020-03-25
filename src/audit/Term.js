@@ -7,7 +7,8 @@ export default class Term extends React.Component {
         super(props);
         this.state = {
         number: props.number,
-        courses: props.courses
+        courses: props.courses,
+        credits: props.credits
         }
     }
     render() {
@@ -24,7 +25,7 @@ export default class Term extends React.Component {
                 })}
             </div>
             <div className="term-credits">
-                <div>16 Credits</div>
+                <div>{this.state.credits} Credits</div>
             </div>
             </div>
         );
