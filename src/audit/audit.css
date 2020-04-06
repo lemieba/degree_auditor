@@ -2,18 +2,6 @@
     cursor: pointer;
   }
   
-  .held {
-  }
-  
-  .grid-term {
-    /* height: 110px;
-    width: 110px;
-    margin: 10px;
-    border: solid 5px black;
-    background-color: white;
-    display: inline-block; */
-  }
-  
   .hovered {
     border: dotted .5px grey;
   }

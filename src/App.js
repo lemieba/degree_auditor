@@ -1,13 +1,12 @@
 import React from 'react'
-import Audit from './audit/Audit';
-
+import Form from './audit/Form';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <div id="app">
-        <Audit></Audit>
+        <Form></Form>
       </div>
     </div>
   );
