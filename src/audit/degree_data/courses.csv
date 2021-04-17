@@ -1,126 +1,126 @@
-dept,crs_id,crs_name,credits
-CORE,100,New Student Orientation Seminar,1
-CORE,150,Composition I,3
-CORE,160,Composition II,3
-CORE,120,Critical Thinking,2
-CORE,201,Introduction to Business and Entrepreneurship,3
-CORE,260,Humanities,3
-CORE,360,The World and Its Peoples,4
-MATH,120,Calculus I,4
-MATH,125,Discrete Mathematics,4
-MATH,240,Linear Algebra,4
-NSCI,360,Statistics,4
-CSCI,110/110L,Introduction to Computer Science I & Lab,4
-CSCI,120/120L,Introduction to Computer Science II & Lab,4
-CSCI,201,Sophomore Seminar,0.5
-CSCI,202,Sophomore Seminar,0.5
-CSCI,230/230L,Introduction to Computer Architecture & Lab,4
-CSCI,241,Data Structures and Algorithms,4
-CSCI,261,Operating Systems,4
-CSCI,301,Junior Seminar,0.5
-CSCI,302,Junior Seminar,0.5
-CSCI,410,Senior Seminar,2
-Art,291,African American Art,4
-Art,292,African Art,4
-English,275,African American Literature,4
-History,180,African History,4
-History,270,African American History,4
-Music,200,World Music,2
-Music,206,Crosscurrents in African and African American Music,2
-CORE,220,Creative Arts,3
-Music,207,20th Century Music,0
-Music,208,History of Jazz,2
-Music,205,Music in America,0
-Art,207,Arts and Ideas I,4
-Art,208,Arts and Ideas II,4
-CORE,240,Natural Science,4
-BIOL,101/101L,General Biology/ General Biology Lab,0
-CHEM,113/103,Gen. Chem. I/Experiments in Gen Chem.,0
-PHY,130/130L,University Physics and Experiment in Physics,0
-ECON,230,Principles of Microeconomics,0
-ECON,240,Principles of Macroeconomics,0
-HIS,160,United States History,0
-PSCI,122,American Political Systems,0
-PSY,180,General Psychology,4
-SOC,100,Introduction to Sociology,0
-SPAN,101,Elementary I,4
-FREN,101,Elementary I,4
-SPAN,102,Elementary II,4
-FREN,102,Elementary II,4
-SPAN,200,Intermediate,4
-FREN,200,Intermediate,4
-CSCI,282,Programming Languages,4
-CSCI,312,Database,4
-BAD ,110,Buisness Information Systems ,3
-MFL,101,Elementary Foreign Language I,4
-MATH,101,College Algebra,4
-BAD,200,Applied Calculus ,4
-MGT,280,Management Principles & Prac.,4
-MFL,102,Elementary Foreign Language II,4
-BAD,250,Buisness Communication,3
-ACC,230,Principles of Accounting,4
-ECON,230,Principles of Microeconomics ,3
-LANG,200,Intermediate,4
-CORE ,220,Creative Arts ,3
-ECON,240,Principles of Macroeconomics ,3
-BAD,399,Intership Seminar,4
-BAD,260,Applied Statistics,4
-ACC,240,Managerial Accounting ,3
-BAD,320,Marketing,3
-BAD,220,Buisness Law and Ethics,4
-CORE ,230,Natural Science ,4
-MGT,330,Production & Operation Manage,3
-FIN,320,Buisness Finance ,3
-CORE ,260,Humanities ,3
-CORE,360,World and Its Peoples ,4
-BAD,490,Buisness Policy,3
-MATH,121,Biocalculus,4
-MATH,130,Caculus II,4
-MFL,200,Intermediate Foreign Language ,4
-MATH,210,Calculus III,4
-MATH,240,Linear Algebra ,4
-MATH,220,Introduction to HIgher Algebra ,4
-MATH,320,Algebraic Structure ,4
-MATH,353,Real Analysis,4
-MATH,395,Senior Seminar,1
-NSCI,360,Statistics ,4
-MATH,270,Ordinary Differential Equation ,4
-PSY,180,Genral Psychology,4
-PSY ,262,Learning & Coginition,4
-HSS,280,Methods/Stats for Soc Rsrch,4
-PSY,310,Exp./Quasi-EXp Research Design ,4
-PSY,481,Senior Seminar ,4
-CHEM ,113,General Chemistry I,3
-CHEM ,103,Experiments in Gen.Chemistry ,1
-BIOL ,101,General Biology I,3
-BIOL ,101L,General Biology I Lab,1
-MATH,101,College Algebra,4
-CHEM ,341,Physical Chemistry and Lab I,0
-CHEM ,114,General Chemistry II,3
-CHEM ,104,Experiments in General Chem II,1
-BIOL ,102,General Biology II,3
-BIOL ,102L,General Biology II Lab,1
-MATH,110,Precalculus,4
-CHEM ,233,Organic Chemistry I,3
-CHEM ,203,Experimental Organic Chem I,1
-MATH ,121,Biomathematics I,4
-BIOL ,360,Molecular Cell Biology ,3
-BIOL ,360L,Molecular Cell Biology Lab,1
-NSCI,290,Undergraduate Research ,3
-CHEM ,234,Organic Chemistry II,3
-CHEM ,204,Experimental Organic Chem II,1
-CSCI,110,Intro to Computer Science I,4
-LANG,101,Language I,4
-NSCI,361,Biochemistry I,3
-NSCI,361L,Biochemistry I Lab,1
-PHYS,130,University Physics I,3
-PHYS,130L,Experiments in Gen Physics I,1
-LANG,102,Language II,4
-NSCI,362,Biochemistry II,3
-NSCI,362L,Biochemistry II Laboratory,1
-NSCI,385,Bioinformatics,3
-NSCI,385L,Bioinformatics Lab,1
-PHYS,140,University Physics II,3
-PHYS,140L,Experiments in Gen Physics II,1
-BIOL ,410,Molecular Methods ,4
-CHEM ,341L,Physical Chemistry and Lab I,0
+crs_id,dept,crs_num,crs_name,credits
+1,CORE,100,New Student Orientation Seminar,1
+2,CORE,150,Composition I,3
+3,CORE,160,Composition II,3
+4,CORE,120,Critical Thinking,2
+5,CORE,201,Introduction to Business and Entrepreneurship,3
+6,CORE,260,Humanities,3
+7,CORE,360,The World and Its Peoples,4
+8,MATH,120,Calculus I,4
+9,MATH,125,Discrete Mathematics,4
+10,MATH,240,Linear Algebra,4
+11,NSCI,360,Statistics,4
+12,CSCI,110/110L,Introduction to Computer Science I & Lab,4
+13,CSCI,120/120L,Introduction to Computer Science II & Lab,4
+14,CSCI,201,Sophomore Seminar,0.5
+15,CSCI,202,Sophomore Seminar,0.5
+16,CSCI,230/230L,Introduction to Computer Architecture & Lab,4
+17,CSCI,241,Data Structures and Algorithms,4
+18,CSCI,261,Operating Systems,4
+19,CSCI,301,Junior Seminar,0.5
+20,CSCI,302,Junior Seminar,0.5
+21,CSCI,410,Senior Seminar,2
+22,Art,291,African American Art,4
+23,Art,292,African Art,4
+24,English,275,African American Literature,4
+25,History,180,African History,4
+26,History,270,African American History,4
+27,Music,200,World Music,2
+28,Music,206,Crosscurrents in African and African American Music,2
+29,CORE,220,Creative Arts,3
+30,Music,207,20th Century Music,0
+31,Music,208,History of Jazz,2
+32,Music,205,Music in America,0
+33,Art,207,Arts and Ideas I,4
+34,Art,208,Arts and Ideas II,4
+35,CORE,240,Natural Science,4
+36,BIOL,101/101L,General Biology/ General Biology Lab,0
+37,CHEM,113/103,Gen. Chem. I/Experiments in Gen Chem.,0
+38,PHY,130/130L,University Physics and Experiment in Physics,0
+39,ECON,230,Principles of Microeconomics,0
+40,ECON,240,Principles of Macroeconomics,0
+41,HIS,160,United States History,0
+42,PSCI,122,American Political Systems,0
+43,PSY,180,General Psychology,4
+44,SOC,100,Introduction to Sociology,0
+45,SPAN,101,Elementary I,4
+46,FREN,101,Elementary I,4
+47,SPAN,102,Elementary II,4
+48,FREN,102,Elementary II,4
+49,SPAN,200,Intermediate,4
+50,FREN,200,Intermediate,4
+51,CSCI,282,Programming Languages,4
+52,CSCI,312,Database,4
+53,BAD ,110,Buisness Information Systems ,3
+54,MFL,101,Elementary Foreign Language I,4
+55,MATH,101,College Algebra,4
+56,BAD,200,Applied Calculus ,4
+57,MGT,280,Management Principles & Prac.,4
+58,MFL,102,Elementary Foreign Language II,4
+59,BAD,250,Buisness Communication,3
+60,ACC,230,Principles of Accounting,4
+61,ECON,230,Principles of Microeconomics ,3
+62,LANG,200,Intermediate,4
+63,CORE ,220,Creative Arts ,3
+64,ECON,240,Principles of Macroeconomics ,3
+65,BAD,399,Intership Seminar,4
+66,BAD,260,Applied Statistics,4
+67,ACC,240,Managerial Accounting ,3
+68,BAD,320,Marketing,3
+69,BAD,220,Buisness Law and Ethics,4
+70,CORE ,230,Natural Science ,4
+71,MGT,330,Production & Operation Manage,3
+72,FIN,320,Buisness Finance ,3
+73,CORE ,260,Humanities ,3
+74,CORE,360,World and Its Peoples ,4
+75,BAD,490,Buisness Policy,3
+76,MATH,121,Biocalculus,4
+77,MATH,130,Caculus II,4
+78,MFL,200,Intermediate Foreign Language ,4
+79,MATH,210,Calculus III,4
+80,MATH,240,Linear Algebra ,4
+81,MATH,220,Introduction to HIgher Algebra ,4
+82,MATH,320,Algebraic Structure ,4
+83,MATH,353,Real Analysis,4
+84,MATH,395,Senior Seminar,1
+85,NSCI,360,Statistics ,4
+86,MATH,270,Ordinary Differential Equation ,4
+87,PSY,180,Genral Psychology,4
+88,PSY ,262,Learning & Coginition,4
+89,HSS,280,Methods/Stats for Soc Rsrch,4
+90,PSY,310,Exp./Quasi-EXp Research Design ,4
+91,PSY,481,Senior Seminar ,4
+92,CHEM ,113,General Chemistry I,3
+93,CHEM ,103,Experiments in Gen.Chemistry ,1
+94,BIOL ,101,General Biology I,3
+95,BIOL ,101L,General Biology I Lab,1
+96,MATH,101,College Algebra,4
+97,CHEM ,341,Physical Chemistry and Lab I,0
+98,CHEM ,114,General Chemistry II,3
+99,CHEM ,104,Experiments in General Chem II,1
+100,BIOL ,102,General Biology II,3
+101,BIOL ,102L,General Biology II Lab,1
+102,MATH,110,Precalculus,4
+103,CHEM ,233,Organic Chemistry I,3
+104,CHEM ,203,Experimental Organic Chem I,1
+105,MATH ,121,Biomathematics I,4
+106,BIOL ,360,Molecular Cell Biology ,3
+107,BIOL ,360L,Molecular Cell Biology Lab,1
+108,NSCI,290,Undergraduate Research ,3
+109,CHEM ,234,Organic Chemistry II,3
+110,CHEM ,204,Experimental Organic Chem II,1
+111,CSCI,110,Intro to Computer Science I,4
+112,LANG,101,Language I,4
+113,NSCI,361,Biochemistry I,3
+114,NSCI,361L,Biochemistry I Lab,1
+115,PHYS,130,University Physics I,3
+116,PHYS,130L,Experiments in Gen Physics I,1
+117,LANG,102,Language II,4
+118,NSCI,362,Biochemistry II,3
+119,NSCI,362L,Biochemistry II Laboratory,1
+120,NSCI,385,Bioinformatics,3
+121,NSCI,385L,Bioinformatics Lab,1
+122,PHYS,140,University Physics II,3
+123,PHYS,140L,Experiments in Gen Physics II,1
+124,BIOL ,410,Molecular Methods ,4
+125,CHEM ,341L,Physical Chemistry and Lab I,0

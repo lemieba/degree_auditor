@@ -1,3 +1,6 @@
+.holder{
+    min-height: 106px;
+}
 .grid-item {
     cursor: pointer;
   }

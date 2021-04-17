@@ -5,11 +5,16 @@ import Course from './Course';
 export default class Term extends React.Component {
     constructor(props) {
         super(props);
+        var total_credits = 0;
+        for (var i = 0; i < props.courses.length; i++) {
+          total_credits += props.courses[i].credits
+        }
         this.state = {
         number: props.number,
         courses: props.courses,
-        credits: props.credits
+        credits: total_credits
         }
+
     }
     render() {
         return(
