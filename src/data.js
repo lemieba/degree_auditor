@@ -1,24 +1,22 @@
 // const { countReset } = require('console');
 
 fs = require('fs');
-var courses_file_name = './audit/degree_data/courses.json';
+var courses_file_name = './degree_data/courses.json';
 var courses_json = JSON.parse(fs.readFileSync(courses_file_name).toString());
 
 
-
-
-
+// fs.writeFileSync(courses_file_name, JSON.stringify(courses_json));
 /**
  * input
- * courses_json: 
+ * courses_json:
  *    dict{1231: {
  *                crs_id: 1231,
  *                nearest_prereq
  *                ...
- *                term: 0,           
+ *                term: 0,
  *                }
  *          }
- * 
+ *
  * output:
  * courses_json:
  *    dict{1231: {
@@ -29,8 +27,9 @@ var courses_json = JSON.parse(fs.readFileSync(courses_file_name).toString());
  *                term: 2
  *                min_term: 2,
  *                max_term: 4
- *     }  
+ *     }
  */
+/*
  for (const cid in courses_json) {
   if (Object.hasOwnProperty.call(courses_json, cid)) {
     const crs = courses_json[cid];
@@ -53,7 +52,7 @@ function maxDepth(node) {
         max_depth = curr_depth;
       }
     });
-    
+
     courses_json[node.crs_id].min_term = max_depth + 1;
     courses_json[node.crs_id].term = max_depth + 1;
     visited[node.crs_id] = max_depth + 1;
@@ -109,7 +108,7 @@ function reverseMaxDepth(node) {
         max_depth = curr_depth;
       }
     });
-    
+
     courses_json[node.crs_id].max_term = 8 - max_depth ;
     visited[node.crs_id] = max_depth + 1;
     return max_depth + 1;
@@ -126,4 +125,4 @@ for (const cid in courses_json) {
 
 // fs.writeFileSync('./audit/degree_data/cs_degree.json', JSON.stringify(degree));
 fs.writeFileSync(courses_file_name, JSON.stringify(courses_json));
- 
+ */

@@ -1,6 +1,6 @@
 {
     "1": {
-        "crs_id": 1,
+        "crs_id": "1",
         "dept": "CORE",
         "crs_num": "100",
         "crs_name": "New Student Orientation Seminar",
@@ -14,7 +14,7 @@
         "max_term": 7
     },
     "2": {
-        "crs_id": 2,
+        "crs_id": "2",
         "dept": "CORE",
         "crs_num": "150",
         "crs_name": "Composition I",
@@ -28,7 +28,7 @@
         "max_term": 7
     },
     "3": {
-        "crs_id": 3,
+        "crs_id": "3",
         "dept": "CORE",
         "crs_num": "160",
         "crs_name": "Composition II",
@@ -42,7 +42,7 @@
         "max_term": 8
     },
     "4": {
-        "crs_id": 4,
+        "crs_id": "4",
         "dept": "CORE",
         "crs_num": "120",
         "crs_name": "Critical Thinking",
@@ -56,7 +56,7 @@
         "max_term": 8
     },
     "5": {
-        "crs_id": 5,
+        "crs_id": "5",
         "dept": "CORE",
         "crs_num": "201",
         "crs_name": "Introduction to Business and Entrepreneurship",
@@ -68,7 +68,7 @@
         "max_term": 8
     },
     "6": {
-        "crs_id": 6,
+        "crs_id": "6",
         "dept": "CORE",
         "crs_num": "260",
         "crs_name": "Humanities",
@@ -80,7 +80,7 @@
         "max_term": 8
     },
     "7": {
-        "crs_id": 7,
+        "crs_id": "7",
         "dept": "CORE",
         "crs_num": "360",
         "crs_name": "The World and Its Peoples",
@@ -92,7 +92,7 @@
         "max_term": 8
     },
     "8": {
-        "crs_id": 8,
+        "crs_id": "8",
         "dept": "MATH",
         "crs_num": "120",
         "crs_name": "Calculus I",
@@ -104,7 +104,7 @@
         "max_term": 8
     },
     "9": {
-        "crs_id": 9,
+        "crs_id": "9",
         "dept": "MATH",
         "crs_num": "125",
         "crs_name": "Discrete Mathematics",
@@ -119,7 +119,7 @@
         "max_term": 7
     },
     "10": {
-        "crs_id": 10,
+        "crs_id": "10",
         "dept": "MATH",
         "crs_num": "240",
         "crs_name": "Linear Algebra",
@@ -133,7 +133,7 @@
         "max_term": 8
     },
     "11": {
-        "crs_id": 11,
+        "crs_id": "11",
         "dept": "NSCI",
         "crs_num": "360",
         "crs_name": "Statistics",
@@ -147,7 +147,7 @@
         "max_term": 8
     },
     "12": {
-        "crs_id": 12,
+        "crs_id": "12",
         "dept": "CSCI",
         "crs_num": "110/110L",
         "crs_name": "Introduction to Computer Science I & Lab",
@@ -161,7 +161,7 @@
         "max_term": 4
     },
     "13": {
-        "crs_id": 13,
+        "crs_id": "13",
         "dept": "CSCI",
         "crs_num": "120/120L",
         "crs_name": "Introduction to Computer Science II & Lab",
@@ -177,7 +177,7 @@
         "max_term": 5
     },
     "14": {
-        "crs_id": 14,
+        "crs_id": "14",
         "dept": "CSCI",
         "crs_num": "201",
         "crs_name": "Sophomore Seminar",
@@ -191,7 +191,7 @@
         "max_term": 4
     },
     "15": {
-        "crs_id": 15,
+        "crs_id": "15",
         "dept": "CSCI",
         "crs_num": "202",
         "crs_name": "Sophomore Seminar",
@@ -207,7 +207,7 @@
         "max_term": 5
     },
     "16": {
-        "crs_id": 16,
+        "crs_id": "16",
         "dept": "CSCI",
         "crs_num": "230/230L",
         "crs_name": "Introduction to Computer Architecture & Lab",
@@ -223,7 +223,7 @@
         "max_term": 6
     },
     "17": {
-        "crs_id": 17,
+        "crs_id": "17",
         "dept": "CSCI",
         "crs_num": "241",
         "crs_name": "Data Structures and Algorithms",
@@ -239,7 +239,7 @@
         "max_term": 7
     },
     "18": {
-        "crs_id": 18,
+        "crs_id": "18",
         "dept": "CSCI",
         "crs_num": "261",
         "crs_name": "Operating Systems",
@@ -253,7 +253,7 @@
         "max_term": 8
     },
     "19": {
-        "crs_id": 19,
+        "crs_id": "19",
         "dept": "CSCI",
         "crs_num": "301",
         "crs_name": "Junior Seminar",
@@ -269,7 +269,7 @@
         "max_term": 6
     },
     "20": {
-        "crs_id": 20,
+        "crs_id": "20",
         "dept": "CSCI",
         "crs_num": "302",
         "crs_name": "Junior Seminar",
@@ -285,7 +285,7 @@
         "max_term": 7
     },
     "21": {
-        "crs_id": 21,
+        "crs_id": "21",
         "dept": "CSCI",
         "crs_num": "410",
         "crs_name": "Senior Seminar",
@@ -299,7 +299,7 @@
         "max_term": 8
     },
     "22": {
-        "crs_id": 22,
+        "crs_id": "22",
         "dept": "Art",
         "crs_num": "291",
         "crs_name": "African American Art",
@@ -311,7 +311,7 @@
         "max_term": 8
     },
     "23": {
-        "crs_id": 23,
+        "crs_id": "23",
         "dept": "Art",
         "crs_num": "292",
         "crs_name": "African Art",
@@ -323,7 +323,7 @@
         "max_term": 8
     },
     "24": {
-        "crs_id": 24,
+        "crs_id": "24",
         "dept": "English",
         "crs_num": "275",
         "crs_name": "African American Literature",
@@ -335,7 +335,7 @@
         "max_term": 8
     },
     "25": {
-        "crs_id": 25,
+        "crs_id": "25",
         "dept": "History",
         "crs_num": "180",
         "crs_name": "African History",
@@ -347,7 +347,7 @@
         "max_term": 8
     },
     "26": {
-        "crs_id": 26,
+        "crs_id": "26",
         "dept": "History",
         "crs_num": "270",
         "crs_name": "African American History",
@@ -359,7 +359,7 @@
         "max_term": 8
     },
     "27": {
-        "crs_id": 27,
+        "crs_id": "27",
         "dept": "Music",
         "crs_num": "200",
         "crs_name": "World Music",
@@ -371,7 +371,7 @@
         "max_term": 8
     },
     "28": {
-        "crs_id": 28,
+        "crs_id": "28",
         "dept": "Music",
         "crs_num": "206",
         "crs_name": "Crosscurrents in African and African American Music",
@@ -383,7 +383,7 @@
         "max_term": 8
     },
     "29": {
-        "crs_id": 29,
+        "crs_id": "29",
         "dept": "CORE",
         "crs_num": "220",
         "crs_name": "Creative Arts",
@@ -395,7 +395,7 @@
         "max_term": 8
     },
     "30": {
-        "crs_id": 30,
+        "crs_id": "30",
         "dept": "Music",
         "crs_num": "207",
         "crs_name": "20th Century Music",
@@ -407,7 +407,7 @@
         "max_term": 8
     },
     "31": {
-        "crs_id": 31,
+        "crs_id": "31",
         "dept": "Music",
         "crs_num": "208",
         "crs_name": "History of Jazz",
@@ -419,7 +419,7 @@
         "max_term": 8
     },
     "32": {
-        "crs_id": 32,
+        "crs_id": "32",
         "dept": "Music",
         "crs_num": "205",
         "crs_name": "Music in America",
@@ -431,7 +431,7 @@
         "max_term": 8
     },
     "33": {
-        "crs_id": 33,
+        "crs_id": "33",
         "dept": "Art",
         "crs_num": "207",
         "crs_name": "Arts and Ideas I",
@@ -443,7 +443,7 @@
         "max_term": 8
     },
     "34": {
-        "crs_id": 34,
+        "crs_id": "34",
         "dept": "Art",
         "crs_num": "208",
         "crs_name": "Arts and Ideas II",
@@ -455,7 +455,7 @@
         "max_term": 8
     },
     "35": {
-        "crs_id": 35,
+        "crs_id": "35",
         "dept": "CORE",
         "crs_num": "240",
         "crs_name": "Natural Science",
@@ -467,7 +467,7 @@
         "max_term": 8
     },
     "36": {
-        "crs_id": 36,
+        "crs_id": "36",
         "dept": "BIOL",
         "crs_num": "101/101L",
         "crs_name": "General Biology/ General Biology Lab",
@@ -479,7 +479,7 @@
         "max_term": 8
     },
     "37": {
-        "crs_id": 37,
+        "crs_id": "37",
         "dept": "CHEM",
         "crs_num": "113/103",
         "crs_name": "Gen. Chem. I/Experiments in Gen Chem.",
@@ -491,7 +491,7 @@
         "max_term": 8
     },
     "38": {
-        "crs_id": 38,
+        "crs_id": "38",
         "dept": "PHY",
         "crs_num": "130/130L",
         "crs_name": "University Physics and Experiment in Physics",
@@ -503,7 +503,7 @@
         "max_term": 8
     },
     "39": {
-        "crs_id": 39,
+        "crs_id": "39",
         "dept": "ECON",
         "crs_num": "230",
         "crs_name": "Principles of Microeconomics",
@@ -515,7 +515,7 @@
         "max_term": 8
     },
     "40": {
-        "crs_id": 40,
+        "crs_id": "40",
         "dept": "ECON",
         "crs_num": "240",
         "crs_name": "Principles of Macroeconomics",
@@ -527,7 +527,7 @@
         "max_term": 8
     },
     "41": {
-        "crs_id": 41,
+        "crs_id": "41",
         "dept": "HIS",
         "crs_num": "160",
         "crs_name": "United States History",
@@ -539,7 +539,7 @@
         "max_term": 8
     },
     "42": {
-        "crs_id": 42,
+        "crs_id": "42",
         "dept": "PSCI",
         "crs_num": "122",
         "crs_name": "American Political Systems",
@@ -551,7 +551,7 @@
         "max_term": 8
     },
     "43": {
-        "crs_id": 43,
+        "crs_id": "43",
         "dept": "PSY",
         "crs_num": "180",
         "crs_name": "General Psychology",
@@ -563,7 +563,7 @@
         "max_term": 8
     },
     "44": {
-        "crs_id": 44,
+        "crs_id": "44",
         "dept": "SOC",
         "crs_num": "100",
         "crs_name": "Introduction to Sociology",
@@ -575,7 +575,7 @@
         "max_term": 8
     },
     "45": {
-        "crs_id": 45,
+        "crs_id": "45",
         "dept": "SPAN",
         "crs_num": "101",
         "crs_name": "Elementary I",
@@ -589,7 +589,7 @@
         "max_term": 6
     },
     "46": {
-        "crs_id": 46,
+        "crs_id": "46",
         "dept": "FREN",
         "crs_num": "101",
         "crs_name": "Elementary I",
@@ -601,7 +601,7 @@
         "max_term": 8
     },
     "47": {
-        "crs_id": 47,
+        "crs_id": "47",
         "dept": "SPAN",
         "crs_num": "102",
         "crs_name": "Elementary II",
@@ -617,7 +617,7 @@
         "max_term": 7
     },
     "48": {
-        "crs_id": 48,
+        "crs_id": "48",
         "dept": "FREN",
         "crs_num": "102",
         "crs_name": "Elementary II",
@@ -629,7 +629,7 @@
         "max_term": 8
     },
     "49": {
-        "crs_id": 49,
+        "crs_id": "49",
         "dept": "SPAN",
         "crs_num": "200",
         "crs_name": "Intermediate",
@@ -643,7 +643,7 @@
         "max_term": 8
     },
     "50": {
-        "crs_id": 50,
+        "crs_id": "50",
         "dept": "FREN",
         "crs_num": "200",
         "crs_name": "Intermediate",
@@ -655,7 +655,7 @@
         "max_term": 8
     },
     "51": {
-        "crs_id": 51,
+        "crs_id": "51",
         "dept": "CSCI",
         "crs_num": "282",
         "crs_name": "Programming Languages",
@@ -667,7 +667,7 @@
         "max_term": 8
     },
     "52": {
-        "crs_id": 52,
+        "crs_id": "52",
         "dept": "CSCI",
         "crs_num": "312",
         "crs_name": "Database",
@@ -679,7 +679,7 @@
         "max_term": 8
     },
     "53": {
-        "crs_id": 53,
+        "crs_id": "53",
         "dept": "BAD ",
         "crs_num": "110",
         "crs_name": "Buisness Information Systems ",
@@ -691,7 +691,7 @@
         "max_term": 8
     },
     "54": {
-        "crs_id": 54,
+        "crs_id": "54",
         "dept": "MFL",
         "crs_num": "101",
         "crs_name": "Elementary Foreign Language I",
@@ -703,7 +703,7 @@
         "max_term": 8
     },
     "55": {
-        "crs_id": 55,
+        "crs_id": "55",
         "dept": "MATH",
         "crs_num": "101",
         "crs_name": "College Algebra",
@@ -715,7 +715,7 @@
         "max_term": 8
     },
     "56": {
-        "crs_id": 56,
+        "crs_id": "56",
         "dept": "BAD",
         "crs_num": "200",
         "crs_name": "Applied Calculus ",
@@ -727,7 +727,7 @@
         "max_term": 8
     },
     "57": {
-        "crs_id": 57,
+        "crs_id": "57",
         "dept": "MGT",
         "crs_num": "280",
         "crs_name": "Management Principles & Prac.",
@@ -739,7 +739,7 @@
         "max_term": 8
     },
     "58": {
-        "crs_id": 58,
+        "crs_id": "58",
         "dept": "MFL",
         "crs_num": "102",
         "crs_name": "Elementary Foreign Language II",
@@ -751,7 +751,7 @@
         "max_term": 8
     },
     "59": {
-        "crs_id": 59,
+        "crs_id": "59",
         "dept": "BAD",
         "crs_num": "250",
         "crs_name": "Buisness Communication",
@@ -763,7 +763,7 @@
         "max_term": 8
     },
     "60": {
-        "crs_id": 60,
+        "crs_id": "60",
         "dept": "ACC",
         "crs_num": "230",
         "crs_name": "Principles of Accounting",
@@ -775,7 +775,7 @@
         "max_term": 8
     },
     "61": {
-        "crs_id": 61,
+        "crs_id": "61",
         "dept": "ECON",
         "crs_num": "230",
         "crs_name": "Principles of Microeconomics ",
@@ -787,7 +787,7 @@
         "max_term": 8
     },
     "62": {
-        "crs_id": 62,
+        "crs_id": "62",
         "dept": "LANG",
         "crs_num": "200",
         "crs_name": "Intermediate",
@@ -799,7 +799,7 @@
         "max_term": 8
     },
     "63": {
-        "crs_id": 63,
+        "crs_id": "63",
         "dept": "CORE ",
         "crs_num": "220",
         "crs_name": "Creative Arts ",
@@ -811,7 +811,7 @@
         "max_term": 8
     },
     "64": {
-        "crs_id": 64,
+        "crs_id": "64",
         "dept": "ECON",
         "crs_num": "240",
         "crs_name": "Principles of Macroeconomics ",
@@ -823,7 +823,7 @@
         "max_term": 8
     },
     "65": {
-        "crs_id": 65,
+        "crs_id": "65",
         "dept": "BAD",
         "crs_num": "399",
         "crs_name": "Intership Seminar",
@@ -835,7 +835,7 @@
         "max_term": 8
     },
     "66": {
-        "crs_id": 66,
+        "crs_id": "66",
         "dept": "BAD",
         "crs_num": "260",
         "crs_name": "Applied Statistics",
@@ -847,7 +847,7 @@
         "max_term": 8
     },
     "67": {
-        "crs_id": 67,
+        "crs_id": "67",
         "dept": "ACC",
         "crs_num": "240",
         "crs_name": "Managerial Accounting ",
@@ -859,7 +859,7 @@
         "max_term": 8
     },
     "68": {
-        "crs_id": 68,
+        "crs_id": "68",
         "dept": "BAD",
         "crs_num": "320",
         "crs_name": "Marketing",
@@ -871,7 +871,7 @@
         "max_term": 8
     },
     "69": {
-        "crs_id": 69,
+        "crs_id": "69",
         "dept": "BAD",
         "crs_num": "220",
         "crs_name": "Buisness Law and Ethics",
@@ -883,7 +883,7 @@
         "max_term": 8
     },
     "70": {
-        "crs_id": 70,
+        "crs_id": "70",
         "dept": "CORE ",
         "crs_num": "230",
         "crs_name": "Natural Science ",
@@ -895,7 +895,7 @@
         "max_term": 8
     },
     "71": {
-        "crs_id": 71,
+        "crs_id": "71",
         "dept": "MGT",
         "crs_num": "330",
         "crs_name": "Production & Operation Manage",
@@ -907,7 +907,7 @@
         "max_term": 8
     },
     "72": {
-        "crs_id": 72,
+        "crs_id": "72",
         "dept": "FIN",
         "crs_num": "320",
         "crs_name": "Buisness Finance ",
@@ -919,7 +919,7 @@
         "max_term": 8
     },
     "73": {
-        "crs_id": 73,
+        "crs_id": "73",
         "dept": "CORE ",
         "crs_num": "260",
         "crs_name": "Humanities ",
@@ -931,7 +931,7 @@
         "max_term": 8
     },
     "74": {
-        "crs_id": 74,
+        "crs_id": "74",
         "dept": "CORE",
         "crs_num": "360",
         "crs_name": "World and Its Peoples ",
@@ -943,7 +943,7 @@
         "max_term": 8
     },
     "75": {
-        "crs_id": 75,
+        "crs_id": "75",
         "dept": "BAD",
         "crs_num": "490",
         "crs_name": "Buisness Policy",
@@ -955,7 +955,7 @@
         "max_term": 8
     },
     "76": {
-        "crs_id": 76,
+        "crs_id": "76",
         "dept": "MATH",
         "crs_num": "121",
         "crs_name": "Biocalculus",
@@ -967,7 +967,7 @@
         "max_term": 8
     },
     "77": {
-        "crs_id": 77,
+        "crs_id": "77",
         "dept": "MATH",
         "crs_num": "130",
         "crs_name": "Caculus II",
@@ -979,7 +979,7 @@
         "max_term": 8
     },
     "78": {
-        "crs_id": 78,
+        "crs_id": "78",
         "dept": "MFL",
         "crs_num": "200",
         "crs_name": "Intermediate Foreign Language ",
@@ -991,7 +991,7 @@
         "max_term": 8
     },
     "79": {
-        "crs_id": 79,
+        "crs_id": "79",
         "dept": "MATH",
         "crs_num": "210",
         "crs_name": "Calculus III",
@@ -1003,7 +1003,7 @@
         "max_term": 8
     },
     "80": {
-        "crs_id": 80,
+        "crs_id": "80",
         "dept": "MATH",
         "crs_num": "240",
         "crs_name": "Linear Algebra ",
@@ -1015,7 +1015,7 @@
         "max_term": 8
     },
     "81": {
-        "crs_id": 81,
+        "crs_id": "81",
         "dept": "MATH",
         "crs_num": "220",
         "crs_name": "Introduction to HIgher Algebra ",
@@ -1027,7 +1027,7 @@
         "max_term": 8
     },
     "82": {
-        "crs_id": 82,
+        "crs_id": "82",
         "dept": "MATH",
         "crs_num": "320",
         "crs_name": "Algebraic Structure ",
@@ -1039,7 +1039,7 @@
         "max_term": 8
     },
     "83": {
-        "crs_id": 83,
+        "crs_id": "83",
         "dept": "MATH",
         "crs_num": "353",
         "crs_name": "Real Analysis",
@@ -1051,7 +1051,7 @@
         "max_term": 8
     },
     "84": {
-        "crs_id": 84,
+        "crs_id": "84",
         "dept": "MATH",
         "crs_num": "395",
         "crs_name": "Senior Seminar",
@@ -1063,7 +1063,7 @@
         "max_term": 8
     },
     "85": {
-        "crs_id": 85,
+        "crs_id": "85",
         "dept": "NSCI",
         "crs_num": "360",
         "crs_name": "Statistics ",
@@ -1075,7 +1075,7 @@
         "max_term": 8
     },
     "86": {
-        "crs_id": 86,
+        "crs_id": "86",
         "dept": "MATH",
         "crs_num": "270",
         "crs_name": "Ordinary Differential Equation ",
@@ -1087,7 +1087,7 @@
         "max_term": 8
     },
     "87": {
-        "crs_id": 87,
+        "crs_id": "87",
         "dept": "PSY",
         "crs_num": "180",
         "crs_name": "Genral Psychology",
@@ -1099,7 +1099,7 @@
         "max_term": 8
     },
     "88": {
-        "crs_id": 88,
+        "crs_id": "88",
         "dept": "PSY ",
         "crs_num": "262",
         "crs_name": "Learning & Coginition",
@@ -1111,7 +1111,7 @@
         "max_term": 8
     },
     "89": {
-        "crs_id": 89,
+        "crs_id": "89",
         "dept": "HSS",
         "crs_num": "280",
         "crs_name": "Methods/Stats for Soc Rsrch",
@@ -1123,7 +1123,7 @@
         "max_term": 8
     },
     "90": {
-        "crs_id": 90,
+        "crs_id": "90",
         "dept": "PSY",
         "crs_num": "310",
         "crs_name": "Exp./Quasi-EXp Research Design ",
@@ -1135,7 +1135,7 @@
         "max_term": 8
     },
     "91": {
-        "crs_id": 91,
+        "crs_id": "91",
         "dept": "PSY",
         "crs_num": "481",
         "crs_name": "Senior Seminar ",
@@ -1147,7 +1147,7 @@
         "max_term": 8
     },
     "92": {
-        "crs_id": 92,
+        "crs_id": "92",
         "dept": "CHEM ",
         "crs_num": "113",
         "crs_name": "General Chemistry I",
@@ -1159,7 +1159,7 @@
         "max_term": 8
     },
     "93": {
-        "crs_id": 93,
+        "crs_id": "93",
         "dept": "CHEM ",
         "crs_num": "103",
         "crs_name": "Experiments in Gen.Chemistry ",
@@ -1171,7 +1171,7 @@
         "max_term": 8
     },
     "94": {
-        "crs_id": 94,
+        "crs_id": "94",
         "dept": "BIOL ",
         "crs_num": "101",
         "crs_name": "General Biology I",
@@ -1183,7 +1183,7 @@
         "max_term": 8
     },
     "95": {
-        "crs_id": 95,
+        "crs_id": "95",
         "dept": "BIOL ",
         "crs_num": "101L",
         "crs_name": "General Biology I Lab",
@@ -1195,7 +1195,7 @@
         "max_term": 8
     },
     "96": {
-        "crs_id": 96,
+        "crs_id": "96",
         "dept": "MATH",
         "crs_num": "101",
         "crs_name": "College Algebra",
@@ -1207,7 +1207,7 @@
         "max_term": 8
     },
     "97": {
-        "crs_id": 97,
+        "crs_id": "97",
         "dept": "CHEM ",
         "crs_num": "341",
         "crs_name": "Physical Chemistry and Lab I",
@@ -1219,7 +1219,7 @@
         "max_term": 8
     },
     "98": {
-        "crs_id": 98,
+        "crs_id": "98",
         "dept": "CHEM ",
         "crs_num": "114",
         "crs_name": "General Chemistry II",
@@ -1231,7 +1231,7 @@
         "max_term": 8
     },
     "99": {
-        "crs_id": 99,
+        "crs_id": "99",
         "dept": "CHEM ",
         "crs_num": "104",
         "crs_name": "Experiments in General Chem II",
@@ -1243,7 +1243,7 @@
         "max_term": 8
     },
     "100": {
-        "crs_id": 100,
+        "crs_id": "100",
         "dept": "BIOL ",
         "crs_num": "102",
         "crs_name": "General Biology II",
@@ -1255,7 +1255,7 @@
         "max_term": 8
     },
     "101": {
-        "crs_id": 101,
+        "crs_id": "101",
         "dept": "BIOL ",
         "crs_num": "102L",
         "crs_name": "General Biology II Lab",
@@ -1267,7 +1267,7 @@
         "max_term": 8
     },
     "102": {
-        "crs_id": 102,
+        "crs_id": "102",
         "dept": "MATH",
         "crs_num": "110",
         "crs_name": "Precalculus",
@@ -1279,7 +1279,7 @@
         "max_term": 8
     },
     "103": {
-        "crs_id": 103,
+        "crs_id": "103",
         "dept": "CHEM ",
         "crs_num": "233",
         "crs_name": "Organic Chemistry I",
@@ -1291,7 +1291,7 @@
         "max_term": 8
     },
     "104": {
-        "crs_id": 104,
+        "crs_id": "104",
         "dept": "CHEM ",
         "crs_num": "203",
         "crs_name": "Experimental Organic Chem I",
@@ -1303,7 +1303,7 @@
         "max_term": 8
     },
     "105": {
-        "crs_id": 105,
+        "crs_id": "105",
         "dept": "MATH ",
         "crs_num": "121",
         "crs_name": "Biomathematics I",
@@ -1315,7 +1315,7 @@
         "max_term": 8
     },
     "106": {
-        "crs_id": 106,
+        "crs_id": "106",
         "dept": "BIOL ",
         "crs_num": "360",
         "crs_name": "Molecular Cell Biology ",
@@ -1327,7 +1327,7 @@
         "max_term": 8
     },
     "107": {
-        "crs_id": 107,
+        "crs_id": "107",
         "dept": "BIOL ",
         "crs_num": "360L",
         "crs_name": "Molecular Cell Biology Lab",
@@ -1339,7 +1339,7 @@
         "max_term": 8
     },
     "108": {
-        "crs_id": 108,
+        "crs_id": "108",
         "dept": "NSCI",
         "crs_num": "290",
         "crs_name": "Undergraduate Research ",
@@ -1351,7 +1351,7 @@
         "max_term": 8
     },
     "109": {
-        "crs_id": 109,
+        "crs_id": "109",
         "dept": "CHEM ",
         "crs_num": "234",
         "crs_name": "Organic Chemistry II",
@@ -1363,7 +1363,7 @@
         "max_term": 8
     },
     "110": {
-        "crs_id": 110,
+        "crs_id": "110",
         "dept": "CHEM ",
         "crs_num": "204",
         "crs_name": "Experimental Organic Chem II",
@@ -1375,7 +1375,7 @@
         "max_term": 8
     },
     "111": {
-        "crs_id": 111,
+        "crs_id": "111",
         "dept": "CSCI",
         "crs_num": "110",
         "crs_name": "Intro to Computer Science I",
@@ -1387,7 +1387,7 @@
         "max_term": 8
     },
     "112": {
-        "crs_id": 112,
+        "crs_id": "112",
         "dept": "LANG",
         "crs_num": "101",
         "crs_name": "Language I",
@@ -1399,7 +1399,7 @@
         "max_term": 8
     },
     "113": {
-        "crs_id": 113,
+        "crs_id": "113",
         "dept": "NSCI",
         "crs_num": "361",
         "crs_name": "Biochemistry I",
@@ -1411,7 +1411,7 @@
         "max_term": 8
     },
     "114": {
-        "crs_id": 114,
+        "crs_id": "114",
         "dept": "NSCI",
         "crs_num": "361L",
         "crs_name": "Biochemistry I Lab",
@@ -1423,7 +1423,7 @@
         "max_term": 8
     },
     "115": {
-        "crs_id": 115,
+        "crs_id": "115",
         "dept": "PHYS",
         "crs_num": "130",
         "crs_name": "University Physics I",
@@ -1435,7 +1435,7 @@
         "max_term": 8
     },
     "116": {
-        "crs_id": 116,
+        "crs_id": "116",
         "dept": "PHYS",
         "crs_num": "130L",
         "crs_name": "Experiments in Gen Physics I",
@@ -1447,7 +1447,7 @@
         "max_term": 8
     },
     "117": {
-        "crs_id": 117,
+        "crs_id": "117",
         "dept": "LANG",
         "crs_num": "102",
         "crs_name": "Language II",
@@ -1459,7 +1459,7 @@
         "max_term": 8
     },
     "118": {
-        "crs_id": 118,
+        "crs_id": "118",
         "dept": "NSCI",
         "crs_num": "362",
         "crs_name": "Biochemistry II",
@@ -1471,7 +1471,7 @@
         "max_term": 8
     },
     "119": {
-        "crs_id": 119,
+        "crs_id": "119",
         "dept": "NSCI",
         "crs_num": "362L",
         "crs_name": "Biochemistry II Laboratory",
@@ -1483,7 +1483,7 @@
         "max_term": 8
     },
     "120": {
-        "crs_id": 120,
+        "crs_id": "120",
         "dept": "NSCI",
         "crs_num": "385",
         "crs_name": "Bioinformatics",
@@ -1495,7 +1495,7 @@
         "max_term": 8
     },
     "121": {
-        "crs_id": 121,
+        "crs_id": "121",
         "dept": "NSCI",
         "crs_num": "385L",
         "crs_name": "Bioinformatics Lab",
@@ -1507,7 +1507,7 @@
         "max_term": 8
     },
     "122": {
-        "crs_id": 122,
+        "crs_id": "122",
         "dept": "PHYS",
         "crs_num": "140",
         "crs_name": "University Physics II",
@@ -1519,7 +1519,7 @@
         "max_term": 8
     },
     "123": {
-        "crs_id": 123,
+        "crs_id": "123",
         "dept": "PHYS",
         "crs_num": "140L",
         "crs_name": "Experiments in Gen Physics II",
@@ -1531,7 +1531,7 @@
         "max_term": 8
     },
     "124": {
-        "crs_id": 124,
+        "crs_id": "124",
         "dept": "BIOL ",
         "crs_num": "410",
         "crs_name": "Molecular Methods ",
@@ -1543,7 +1543,7 @@
         "max_term": 8
     },
     "125": {
-        "crs_id": 125,
+        "crs_id": "125",
         "dept": "CHEM ",
         "crs_num": "341L",
         "crs_name": "Physical Chemistry and Lab I",
